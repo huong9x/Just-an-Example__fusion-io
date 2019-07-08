@@ -1,7 +1,0 @@
-.idea
-node_modules
-build
-public/dist
-resources/storage/logs/*.log
-config/env/*.env.js
-db.sqlite
