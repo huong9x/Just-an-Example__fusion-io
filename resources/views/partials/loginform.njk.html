@@ -1,0 +1,10 @@
+<div>
+    <form action="/login" method="get">
+        <input type="text" name="username"/>
+        {% if (loginError and not loginError.valid('username'))  %}
+            username must be an email
+        {% endif %}
+        <input type="password" name="password">
+        <input type="submit" value="Login"/>
+    </form>
+</div>
